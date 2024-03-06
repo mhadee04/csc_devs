@@ -663,6 +663,9 @@ ul {
   border: 3px solid var(--skin-color);
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
 }
+.team .team-item .team-item-inner:hover img {
+  border: 3px solid var(--skin-color);
+}
 .team .team-item .team-item-inner .team-img {
   width: 90%;
   height: 100%;
@@ -687,8 +690,8 @@ ul {
   text-transform: capitalize;
 }
 .team .team-item .team-item-inner p {
-  font-size: 16px;
-  color: var(--text-black-700);
+  font-size: 17px;
+  color: var(--text-black-900);
   line-height: 25px;
 }
 

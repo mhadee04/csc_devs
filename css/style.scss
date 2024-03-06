@@ -799,6 +799,9 @@ ul {
         transform: translateY(-5px);
         border: 3px solid var(--skin-color);
         box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
+        img{
+          border: 3px solid var(--skin-color);
+        }
 
       }
 
@@ -816,7 +819,7 @@ ul {
           height: 100%;
           object-fit: cover;
           border-radius: 20px;
-        }
+        } 
 
       }
 
@@ -829,8 +832,8 @@ ul {
       }
 
       p {
-        font-size: 16px;
-        color: var(--text-black-700);
+        font-size: 17px;
+        color: var(--text-black-900);
         line-height: 25px;
       }
     }
